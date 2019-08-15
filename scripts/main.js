@@ -2,7 +2,7 @@ let myImage=document.querySelector('img');
 confirm('This page uses cookies in order to track your browsing history and sell your private info to the highest bidder. If you do not consent to cookies, kindly unplug your computer.')
 myImage.onclick=function(){
     let mySrc=myImage.getAttribute('src');
-    if(mySrc==='images/IMG_5086.jpg'){
+    if(mySrc==='images/IMG_5086.JPG'){
         myImage.setAttribute('src','images/IMG_5075.JPG');
     }else{
         myImage.setAttribute('src','images/IMG_5086.JPG');
